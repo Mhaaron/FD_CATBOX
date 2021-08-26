@@ -1,5 +1,31 @@
 @media (max-width: 600px) {
-    body {
-        background-color: yellow;
+    nav li {
+        font-size: 15px;
+    }
+
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: 20px;
+    }
+    .main_section {
+        padding: 4%;
+    }
+    .inf_section {
+        display: inherit;
+    }
+    .inf_container {
+        margin-top: 80px;
+    }
+
+    .mention_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mention_container {
+        margin-top: 20px;
     }
 }
