@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Righteous&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font: normal normal bold 17px/23px Open Sans;
+}
+
+nav {
+    background-color: #45D41C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+nav p {
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: frunch;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+    list-style: none;
+    font-size: 18px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+.product_cat img {
+    width: 230px;
+    height: 230px;
+    opacity: 1;
+}
+
+.producto_info {
+    width: 500px;
+    height: 150px;
+    margin: auto;
+}
+.producto_info h2 {
+    width: 125px;
+    height: 25px;
+}
+.producto_info p {
+    width: 450px;
+    height: 50px;
+}
+
+.footer {
+    height: 5px;
+    margin-top: auto;
+}
+.footer__menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #01000D;
+    color: white;
+}
+.footer__menu-item {
+    list-style: none;
+    line-height: 4rem;
+    text-align: center;
+}
+.footer__menu-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
