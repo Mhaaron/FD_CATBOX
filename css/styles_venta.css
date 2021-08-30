@@ -4,7 +4,7 @@ body {
     font: normal normal bold 17px/23px Open Sans;
 }
 
-p {
+p, label {
     font-size: 15px;
 }
 
@@ -42,24 +42,47 @@ nav li a:hover {
     color: black;
 }
 
-.product_cat img {
-    width: 230px;
-    height: 230px;
-    opacity: 1;
+.container_modulo {
+    display: flex;
+    margin: 0;
 }
 
-.producto_info {
-    width: 500px;
-    height: 150px;
+.modulo_pago {
+    background-color: white;
+    box-shadow: 0 0 3px #948b8b;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.modulo_pago_img {
+    text-align: center;
+    max-width: 150px;
     margin: auto;
 }
-.producto_info h2 {
-    width: 125px;
-    height: 25px;
+
+.data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(22, 22, 22);
+    outline: none;
+    box-sizing: border-box;
 }
-.producto_info p {
-    width: 450px;
-    height: 50px;
+
+.main_button {
+    background-color: #45D41C;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.main_button:hover {
+    background-color: #39ad18;
 }
 
 .footer {

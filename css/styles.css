@@ -7,6 +7,10 @@ body {
     font: normal normal bold 17px/23px Open Sans;
 }
 
+p {
+    font-size: 15px;
+}
+
 nav {
     background-color: #45D41C;
     color: white;
@@ -16,10 +20,13 @@ nav {
     height: 50px;
 }
 
-nav p {
+nav div a {
     font-size: 25px;
     margin-left: 10px;
     font-family: frunch;
+    color: #01000D;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 nav ul {
@@ -33,12 +40,12 @@ nav li {
 }
 
 nav li a {
-    color: white;
+    color: #01000D;
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: black;
+    color: white;
 }
 
 .main_section {
@@ -138,6 +145,76 @@ nav li a:hover {
     object-fit: cover;
 }
 
+/* CSS PRODUCTO HTML */
+
+.product_cat img {
+    width: 230px;
+    height: 230px;
+    opacity: 1;
+}
+
+.producto_info {
+    width: 500px;
+    height: 150px;
+    margin: auto;
+}
+.producto_info h2 {
+    width: 125px;
+    height: 25px;
+}
+.producto_info p {
+    width: 450px;
+    height: 50px;
+}
+
+/* END CSS PRODUCTO */
+
+/* CSS VENTA HTML */
+.container_modulo {
+    display: flex;
+    margin: 0;
+}
+
+.modulo_pago {
+    background-color: white;
+    box-shadow: 0 0 3px #948b8b;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.modulo_pago_img {
+    text-align: center;
+    max-width: 150px;
+    margin: auto;
+}
+
+.data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(22, 22, 22);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.main_button {
+    background-color: #45D41C;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.main_button:hover {
+    background-color: #39ad18;
+}
+
+/* END CSS VENTA */
+
 .footer {
     height: 5px;
     margin-top: auto;
@@ -152,6 +229,10 @@ nav li a:hover {
     list-style: none;
     line-height: 4rem;
     text-align: center;
+}
+.footer__menu-item a {
+    text-decoration: none;
+    color: white;
 }
 .footer__menu-item:hover {
     text-decoration: underline;
